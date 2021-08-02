@@ -18,15 +18,17 @@
   padding-right: 0px; }
 
 /* vista mobile */
-@media only screen and (min-width: 0px) and (max-width: 969px) {
+@media only screen and (min-width: 0px) and (max-width: 769px) {
   .header {
     text-align: center; }
     .header .carrito {
       visibility: hidden; }
     .header .login {
       visibility: hidden; }
+  .labelCarousel {
+    font-size: 25px; }
   .imgMarcas {
-    width: 70%;
+    width: 50%;
     height: auto; }
   .imgFilas {
     width: auto;
@@ -37,10 +39,12 @@
     text-align: center; } }
 
 /* vista desktop */
-@media only screen and (min-width: 970px) {
+@media only screen and (min-width: 770px) {
   .nav-item {
     padding-left: 30px;
     padding-right: 30px; }
+  .labelCarousel {
+    font-size: 15px; }
   .form-inline {
     padding-left: 30px; }
   .imgFilas {
@@ -126,25 +130,52 @@
   .medioDePago h3 {
     padding-bottom: 30px; }
 
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%; }
+
+.row {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.paddingRL {
+  padding-left: 0px;
+  padding-right: 0px; }
+
 /* vista mobile */
-@media only screen and (min-width: 0px) and (max-width: 969px) {
+@media only screen and (min-width: 0px) and (max-width: 769px) {
   .header {
     text-align: center; }
     .header .carrito {
       visibility: hidden; }
     .header .login {
       visibility: hidden; }
+  .labelCarousel {
+    font-size: 25px; }
+  .imgMarcas {
+    width: 50%;
+    height: auto; }
   .imgFilas {
     width: auto;
     height: 200px; }
+  .columnas {
+    text-align: center; }
   .footer {
     text-align: center; } }
 
 /* vista desktop */
-@media only screen and (min-width: 970px) {
+@media only screen and (min-width: 770px) {
   .nav-item {
     padding-left: 30px;
     padding-right: 30px; }
+  .labelCarousel {
+    font-size: 15px; }
   .form-inline {
     padding-left: 30px; }
   .imgFilas {
@@ -178,15 +209,17 @@
   padding-right: 0px; }
 
 /* vista mobile */
-@media only screen and (min-width: 0px) and (max-width: 969px) {
+@media only screen and (min-width: 0px) and (max-width: 769px) {
   .header {
     text-align: center; }
     .header .carrito {
       visibility: hidden; }
     .header .login {
       visibility: hidden; }
+  .labelCarousel {
+    font-size: 25px; }
   .imgMarcas {
-    width: 70%;
+    width: 50%;
     height: auto; }
   .imgFilas {
     width: auto;
@@ -197,10 +230,12 @@
     text-align: center; } }
 
 /* vista desktop */
-@media only screen and (min-width: 970px) {
+@media only screen and (min-width: 770px) {
   .nav-item {
     padding-left: 30px;
     padding-right: 30px; }
+  .labelCarousel {
+    font-size: 15px; }
   .form-inline {
     padding-left: 30px; }
   .imgFilas {
@@ -230,23 +265,18 @@
   background-color: darkgray; }
 
 .fondo {
-  background-image: url(img/senderoHuellas.jpg);
+  background-image: url(../img/fondo-patas-colorido.jpg);
   background-size: cover;
   background-repeat: repeat; }
-
-.titulosCategorias {
-  font-size: 25px;
-  text-align: center;
-  color: #f06e0f;
-  padding-top: 20px;
-  padding-bottom: 20px; }
-
-.columnas {
-  text-align: center; }
-
-.imgCentrado {
-  text-align: center;
-  padding-top: 20px; }
+  .fondo .titulosCategorias {
+    font-size: 25px;
+    text-align: center;
+    color: #f06e0f;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .fondo .imgCentrado {
+    text-align: center;
+    padding-top: 20px; }
 
 /* vista mobile */
 @media only screen and (min-width: 0px) and (max-width: 969px) {
@@ -328,25 +358,52 @@
     text-align: left;
     justify-content: left; }
 
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%; }
+
+.row {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.paddingRL {
+  padding-left: 0px;
+  padding-right: 0px; }
+
 /* vista mobile */
-@media only screen and (min-width: 0px) and (max-width: 969px) {
+@media only screen and (min-width: 0px) and (max-width: 769px) {
   .header {
     text-align: center; }
     .header .carrito {
       visibility: hidden; }
     .header .login {
       visibility: hidden; }
+  .labelCarousel {
+    font-size: 25px; }
+  .imgMarcas {
+    width: 50%;
+    height: auto; }
   .imgFilas {
     width: auto;
     height: 200px; }
+  .columnas {
+    text-align: center; }
   .footer {
     text-align: center; } }
 
 /* vista desktop */
-@media only screen and (min-width: 970px) {
+@media only screen and (min-width: 770px) {
   .nav-item {
     padding-left: 30px;
     padding-right: 30px; }
+  .labelCarousel {
+    font-size: 15px; }
   .form-inline {
     padding-left: 30px; }
   .imgFilas {
