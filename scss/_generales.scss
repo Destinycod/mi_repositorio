@@ -18,7 +18,7 @@
 }
 
 /* vista mobile */
-@media only screen and (min-width:0px) and (max-width:769px){
+@media only screen and (min-width:0px) and (max-width:999px){
   .header{
     text-align: center;
     .carrito{
@@ -52,13 +52,13 @@
   }
 }
 /* vista desktop */
-@media only screen and (min-width:770px){
+@media only screen and (min-width:1000px){
   .nav-item{
     padding-left: 30px;
     padding-right: 30px;
   }
   .labelCarousel{
-    font-size: 15px;
+    font-size: 35px;
   }
   .form-inline{
     padding-left: 30px;
